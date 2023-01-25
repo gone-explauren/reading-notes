@@ -1,0 +1,18 @@
+Learn HTML  
+When to use an unorded list: when it would help readability to have a list, but it does not need some type of hierarchy to it 
+change the bullet style: list-style-type
+use an ordered list if you need something listed in steps or with hierarchy, otherwise you can use an unordered list
+li value="" and type=""
+
+Learn CSS
+Margin is the strict parent who believes in spanking and Padding is the your grandma's next door neighbor who swaps cookie recipies with her.
+content: where the text and images are on the page padding: transparent, clears the area around the content
+boder goes around padding and content, not transparent, more like a frame margin: also transparent but is outside the border
+
+Learn JS
+data types stored in an array: numbers, strings, boolean, characters, objects
+(i don't fully understand this part of the reading)
++= addition -= subtraction *= multiplication /= division (these also confused me)
+I don't think you can tell what this would return because we don't have enough info (??) so maybe it would return an error? since we only defined variables and never did anything with them?
+
+I think I need to read more about JS.
