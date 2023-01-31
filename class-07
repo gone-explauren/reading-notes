@@ -1,0 +1,13 @@
+##Domain Modeling
+1. to gain better understanding of functionality
+
+##HTML Tables
+1. tables should not be used for page layouts because they are not accessible, webpages take longer to load, presentation data and content are mixed which makes redesigns of the site really difficult
+2. <tr> is table row, <th> is table header, <td> is table cell, and together these are used to crate the <table>
+
+##Constructors
+1. a constructor is a way to initialize objects
+2. 'this' in an object literal refers to the specific features in that object. In a constructor, 'this' can be used to refer back to an object and differintiate between it and other objects
+
+##Object Prototypes Constructor
+1.I literally tried answering this question so many times but I don't understand it nearly well enough to answer it even a little bit, I'm sorry :(
