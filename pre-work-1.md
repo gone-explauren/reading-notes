@@ -21,7 +21,7 @@ Data flows down from the app down from parent component/elements to their childr
 **State** ***exists at a*** **component level** ***and is*** **passed down.**
 
 ## Every component manages its own ____.
-*I don't really know what answer they're looking for here but* Each component with one or more chold component can control which child elements get the data, and children elements are not permitted to talk back to their parent element. Very metaphoic.
+*I don't really know what answer they're looking for here but* Each component with one or more child component can control which child elements get the data, and children elements are not permitted to talk back to their parent element. Very metaphoric.
 
 
 ### What I'd like to know more about
