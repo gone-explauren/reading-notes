@@ -64,4 +64,4 @@ const bob2 = (a) => a + 100;
 *  **To fix this, wrap the object literal in parentheses:** *const func = () => ({ foo: 1 });*
 
 ### References
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
