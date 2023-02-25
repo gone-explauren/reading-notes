@@ -46,6 +46,57 @@ let parrot = new Bird('parrot');
 parrot.fly();
 parrot.walk();
 
+
+## Examples
+const Animal = function(name, legs) {
+  this.name = name;
+  this.legs = legs;
+  this.eat = function() {
+    this.isEating = true;
+  }
+}
+Animal.prototype.walk = function() {
+  this.isWalking = true;
+}
+
+const Dog = function(name, legs) {
+  Animal.call(this, name, legs);
+}
+Dog.prototype = Object.create(Animal.prototype);
+
+let puppy = new Dog('blake', 4);
+puppy.walk();
+puppy.eat();
+console.log(puppy);
+console.log(puppy instanceof Animal);
+console.log(puppy instanceof Dog);
+
+
+
+const Animal = function(name, legs) {
+  this.name = name;
+  this.legs = legs;
+  this.eat = function() {
+    this.isEating = true;
+  }
+}
+Animal.prototype.walk = function() {
+  this.isWalking = true;
+}
+
+const Dog = function(name, legs) {
+  Animal.call(this, name, legs);
+}
+Dog.prototype = Object.create(Animal.prototype);
+
+let puppy = new Dog('blake', 4);
+puppy.walk();
+puppy.eat();
+console.log(puppy);
+console.log(puppy instanceof Animal);
+console.log(puppy instanceof Dog);
+
+
 ### References
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain>
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this>
