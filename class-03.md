@@ -33,7 +33,7 @@ An ellipsis (...) that expands an object into a list of its arguments
 *let newArr = [1, 2, ...oldArr]*
 
 ## Give an example of using the spread operator to combine two objects into one.   
-*first={adjective: "happy"}, sec={isHappy: true}
+*first={adjective: "happy"}; sec={isHappy: true};
 let laurel = {...first, ...sec}*
 
 ### References
