@@ -148,3 +148,7 @@
 * These two are equivalent, but...
   * we will continue to refer to these joins as inner-joins 
   * this makes the query easier to read once you start using other types of joins
+
+### References:
+* <https://sqlbolt.com/>
+* <https://cdn2.hubspot.net/hubfs/392937/Learn%20SQL.pdf>
