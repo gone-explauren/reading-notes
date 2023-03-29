@@ -152,3 +152,7 @@
 ### References:
 * <https://sqlbolt.com/>
 * <https://cdn2.hubspot.net/hubfs/392937/Learn%20SQL.pdf>
+
+### Completion:
+![sql-queries-prep-complete](https://user-images.githubusercontent.com/123340286/228679345-474f2240-2ad9-4e21-8cd0-95379cdce4e7.jpg)
+
