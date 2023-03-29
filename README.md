@@ -1,7 +1,6 @@
 # Reading Notes
 
-## Code 301: Intermediate Software Development
-I hear this is the part where things get tricky, and I'm excited for it.
+## Code 401: Full-Stack JavaScript
 
 #### font-style {
 *Single stars will italicize my text!*    
