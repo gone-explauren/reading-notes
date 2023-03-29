@@ -170,3 +170,7 @@
 
 ### References:
 * <https://sqlbolt.com/lesson/inserting_rows>
+
+### Completion:
+![managing-sql-dbs-prep-complete](https://user-images.githubusercontent.com/123340286/228679746-d23b6832-212b-4431-8cd5-0161892be8a9.jpg)
+
