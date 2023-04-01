@@ -92,7 +92,7 @@
     * I have already cultivated the foundation of my opinions and to attempt to completely dismantle that would be impractical
     * And this is the same for people with views that oppose mine - We are viewing the world in fundamentlly opposing ways.
   * Where I do think there is room for debate and where I do think debate should be encouraged, however, is in the more nuanced areas of our own viewpoints.
-    * I've heard the echo chamber analogy many, many times, and I understand how easy it is to surroiund yourself with viewpoints that only match your own exactly
+    * I've heard the echo chamber analogy many, many times, and I understand how easy it is to surround yourself with viewpoints that only match your own exactly
     * I think it's important to be able to weed through the opinions and find the facts, then base your own opinions off of those
     * Someone with similar ideological views on the world would be much more likely to sway my opinion on one small facet of my own personal ideology than someone with radically different views to my own
   * I guess what I'm describing is opinions that change gradually over time based on facts rather than opinions
