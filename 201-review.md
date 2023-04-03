@@ -192,6 +192,120 @@ Dimensions of a gif are fixed and the gif will pixilate if you zoom in or change
 * <https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types>
 * <https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#choosing_an_image_format>
   
-
-## Start Week 2...
+## JavaScript Objects
+* How would you describe an object to a non-technical friend?
+An object in JS, like an object in the real world has features or properties that make it unique, like size and shape and color, etc.
   
+* What are some advantages to creating object literals?
+Object literals are good to use when you want to transfer data in a request to a server. It is more efficient to use object literals that sending several single items
+  
+* How do objects differ from arrays?
+Objects store data using *key value pairs*
+
+* Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+Use bracket notation when property identifiers are a string or a var that is a string
+
+* What is a constructor?
+A constructor is a way to *initialize objects* which allows the object code to be reused. It doesn’t require changing object code for many instances of similar object.
+  
+* How does the term **this** differ when used in an object literal versus when used in a constructor?
+**this** in an object literal refers to the specific features in that object. In a constructor, **this** can be used to refer back to an object and differintiate between it and other objects
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics>
+* <https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b>
+* <https://ui.dev/beginners-guide-to-javascript-prototype>
+  
+## Intro to DOM
+*What is the DOM?
+DOM = Document Object Model. Allows programs to change doc structure, style, content, etc.
+
+* Briefly describe the relationship between the DOM and JavaScript.
+We are able to access and manipulate the DOM using JavaScript
+  
+* Explain why we need domain modeling.
+Domain modeling allows us a better understanding of functionality
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction>
+* <https://github.com/codefellows/domain_modeling#domain-modeling>
+  
+## HTML Tables  
+* <tr> is table row, <th> is table header, <td> is table cell, and together these are used to crate the <table>
+  
+* Why should tables NOT be used for page layouts?
+ables should not be used for page layouts because they are not accessible, webpages take longer to load, presentation data and content are mixed which makes redesigns of the site really difficult
+
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics>
+  
+## CSS - Flexbox
+* Flexbox is designed for one-dimensional content. Explain what this means.
+One dimensional content means that contents with different sizes can be laid out in the code, and flexbox will fit them to the best layout for the page
+  
+* Explain the difference between the main axis and cross axis.
+*Main axis* can be either row or column. *Cross axis* is ***perpendicular*** to the main axis
+  
+* How can using certain properties of flexbox negatively impact accessibility?
+Row and column reverse can chance the order of things you laid out in the html, which can negatively affect accessibility
+  
+* What are some advantages of using flexbox over float?
+With flexbox, all child elements of a parent have an equal amount of height and width available to them even if they have different amount of content, whereas float allocates based on amount of content which doesn’t always look the best.
+  
+### References: 
+* <https://web.dev/learn/css/flexbox/>
+* <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox>
+* <https://web.dev/learn/css/layout/>
+  
+## HTML Forms
+* List 5 form elements and explain their importance.
+  * label : important for identifying what an input is looking for
+  * fieldset: for creating groups of widget that share the same purpose
+  * legend: for labeling a fieldset that formally describes the purpose of the fieldset
+  * input: what actually takes in the value you want from the user
+  * select: defines a drop-down list
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/Forms>
+* <https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form>
+* <https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form>
+  
+## JavaScript Events
+* How would you describe events to a non-technical friend?
+An event is something that happens on a when you perform certain actions on a webpage (ie click, hover, etc)
+  
+* When using the addEventListener() method, what 2 arguments will you need to provide?
+  * the name of the event 
+  * a function to handle the event  
+  
+* Describe the event object. Why is the target within the event object useful?
+The *event object* is the parameter specified with a name. The target is useful because it is a reference to the element the event occured on
+  
+* What is the difference between event bubbling and event capturing?
+*Bubbling* describes how the browser handles events targeted at nested elements, and *capturing* is like bubbling, but it starts the event firing on the least nested element
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/JavaScript>
+* <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events>
+  
+## Debugging
+* Name some key differences between a Syntax Error and a Logic Error.
+  * syntax: usually a spelling error or a typo. syntax errors will also usually be indicated by a red line generated in your ide or text editor
+  * logic: the code is syntatically fine but it is not performing what you want it to perform. Usually no indicators are given when there is a logic error
+  
+* How would you describe the JavaScript Debugger tool and how it works to someone just starting out in software development?
+iIt is a problem solving tool that allows you to stop your code at specific points to check values of variables and what is happening at specific points in your code 
+  
+* Define what a breakpoint is.
+A break point is a place in the code that you want to stop the code running
+  
+* What is the call stack?
+The call stack shows you *what code was executed to get to the current line.*
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong>
+* <https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools#the_javascript_debugger>
+* <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML>
+* <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS>
+  
+## Start Week 3...
