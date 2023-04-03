@@ -308,4 +308,105 @@ The call stack shows you *what code was executed to get to the current line.*
 * <https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML>
 * <https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS>
   
-## Start Week 3...
+## Embedding Audio and Video
+* Describe the use of the src and controls attributes in the <video> element.
+**src** is the path to the video you're wanting to embed, and **controls** allow users to control video and audio playback.
+   
+* Why is it important to have fallback content inside the <video> element?
+Not all browsers support access to the video element, so fallback content could be a link to the source of the video so the user can access it. 
+  
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content>
+* <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies>
+  
+## CSS Grid
+* How does Grid layout differ from Flex?
+Flex was designed to be one dimensional, but *grid is a 2d layout*
+
+* Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
+  * grid container: a grid layout with rows and columns
+  * grid item: child element of the container 
+  * grid line: the lines that make the boxes out of the rows and columns 
+  
+### References:
+* <https://css-tricks.com/snippets/css/complete-guide-grid/>
+
+## Responsive Images
+* Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+Responsive images save bandwidth by not downloading huge images on page load
+
+* **srcset** allows the browser to choose from a specified set of images of different sizes.  
+* Sizes are separated by a comma.
+
+* How is srcset more helpful for responsive images than CSS or JavaScript?
+If there is a set of images to choose from (in srcset), there is another image to fallback on if the first choice doesnt work for whatever reason.
+
+### References:
+* <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>
+  
+## Canvas
+* What does the <canvas> allow a developer to acheive?
+<canvas> allows the dev to create 2d graphics in JavaScript
+  
+* What is the importance of the closing </canvas> tag?
+The content between the opening a closing <canvas> tags is fallback content that give the browser other display option if it can’t display the chosen graphic
+
+*Explain what the getContext() method does.
+getContext() checks that the browser is compatible with canvas and 2d drawing. If it is not, then the fallback content gets displayed 
+  
+### References:
+* <https://www.javascripttutorial.net/web-apis/javascript-canvas/>
+* <https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes>
+* <https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors>
+* <https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text>
+  
+## Chart.js
+* What is Chart.js and how it can be brought into your project?
+Chart.js gives you the option of using a number of chart types, customizations, and plugins. Do use it, you need to install the chart.js plugin for JavaScript.
+  
+* List 3 different Chart types you can create using Chart.js.
+  * scatter plot, 
+  * pie chart, 
+  * bar graph
+
+* What are some advantages to displaying data via a chart over a table?
+Charts are easier for users to look at and interpret data than tables are. Charts are more visually appealing to users and more customizable, so colors and animations can easily be added 
+  
+### References:
+* <https://www.chartjs.org/docs/latest/> 
+* <https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/>
+  
+## Local Storage
+* Why would a developer use local storage for a web application?
+Local storage allows you to store the users' data so they can return to the most recent setting without having them forced to sign up for an account. 
+  
+* What information should not be stored in local storage?
+Objects can’t properly be stored in local storage but there is a way to get around this… 
+  
+* Local storage can store what type of data? How would you convert it to that type before storing?
+Local storage can store strings, so in order to properly store objects in Local storage, you have to use JSON.stringify() and JSON.parse()   
+  
+### References:
+* <https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/>   
+* <http://diveinto.html5doctor.com/storage.html>
+  
+## CSS Animations and Transformations
+* What does a CSS transform allow the developer to do to an element?
+CSS transform allows the developer to distort a 2D element 
+
+* What does a CSS transition allow the developer to do to an element?
+CSS transition allows the developer to alter the appearance or behavior of an element when it’s hovered over or clicked, etc.  
+  
+* How does a CSS animation differ from a CSS transition?
+The difference between CSS transition and Animation is the key frames used to make changes to an element over time in animation
+
+* What are some benefits to using CSS transitions on websites?
+Using transitions on a website make it more dynamic and fun for user to interact with 
+    
+### References:
+* <https://learn.shayhowe.com/advanced-html-css/css-transforms/>  
+* <https://learn.shayhowe.com/advanced-html-css/transitions-animations/>  
+* <https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users>  
+* <https://codepen.io/dp_lewis/pen/QWMxRR>  
+* <https://codepen.io/retyui/pen/ByoaXV>  
+* <https://codepen.io/akshaychauhan/pen/dyBqVo>  
