@@ -35,16 +35,16 @@ Tests are important because it allows a dev to ensure their code is working in t
 
 * What are three expected benefits of testing
   * Squash bugs earlier in development, reduce defective code
-  * Less time spent debuggin in final phases of development 
+  * Less time spent debugging in final phases of development 
   * Generally improved design qualities in the code
 
 * Name at lest 2 individual pitfalls and at least 2 team pitfalls commonly encountered while writing tests.
   * Individual:
     * not enough and/or too many tests at once
-    * test written for trival code (excessive uneccessary tests)
+    * test written for trivial code (excessive unnecessary tests)
   * Team:
     * poor maintenance of the test suite
-    * lack of cocsistent use of the written tests
+    * lack of consistent use of the written tests
 
 ### References:
 * <https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1)>
@@ -55,12 +55,12 @@ Tests are important because it allows a dev to ensure their code is working in t
   * Build, test, and deployment happens automatically after code is written.
   * Improvements in productivity and efficiency, while decreasing development complexity.
 
-* What is the difference between Continuos Delivery and Continuous Deployment?
+* What is the difference between Continuous Delivery and Continuous Deployment?
   * Continuous Delivery queues up the written code and packages with everything it needs to deploy, including the testing infrastructure.  
   * Continuous Deployment is the last step of automating the deployment of the continuous delivery system and getting it out to production quickly.
 
 * Explain how GitHub fits into this process assuming the listener comes from a non-technical background
-GitHub is a space where many developers can work simultaneously on a project. Each time a dev commits new code to the project repository, the code can be reviewed before being merged into the main project. There are often tests that must be passed before the code can be merged aqnd deployed.
+GitHub is a space where many developers can work simultaneously on a project. Each time a dev commits new code to the project repository, the code can be reviewed before being merged into the main project. There are often tests that must be passed before the code can be merged and deployed..
 
 ### References:
 * <https://github.com/ladjs/supertest>
