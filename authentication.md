@@ -1,4 +1,4 @@
-#Authentication
+# Authentication
 
 ## Securing Passwords
 * Explain to a non-technical friend how you would safely hash and store a password.
