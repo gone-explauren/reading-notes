@@ -40,4 +40,4 @@ Header, Payload, Signature
 * <https://stackoverflow.com/questions/27301557/if-you-can-decode-jwt-how-are-they-secure>
 * <https://www.youtube.com/watch?v=926mknSW9Lo&ab_channel=Bitfumes>
 * <https://www.npmjs.com/package/jsonwebtoken>
-* 
+
