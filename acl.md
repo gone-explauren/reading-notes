@@ -1,7 +1,7 @@
 # Access Control (ACL)
 
 ## 5 steps to RBAC
-* What is Role Based Access Control (RBAC) and why do we care?
+* What is Role Based Access Control (RBAC)?
   * RBAC is a security model to manage and contol system access based on a user's role in an organization 
   * This prevents the system from be access by / changes from being made by users without specific permissions
 
