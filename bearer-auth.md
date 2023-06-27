@@ -18,7 +18,7 @@
   * if the payload and token don’t match the payload is not accepted as valid
 
 * If sending a JWT, what must sender and receiver both know? Hint, it’s appended in the signature.
-The sender and receiver both have to know the secret (*the secret is appended in the signature*)
+ * The sender and receiver both have to know the secret (*the secret is appended in the signature*)
 
 * Explain how concatenated content and secret can be sent and received securely to a non-technical recruiter.
   * The sender and receiver both know the hash and the secret
@@ -33,7 +33,7 @@ The sender and receiver both have to know the secret (*the secret is appended in
   * and it's very compact and fast.
 
 * What are the three components (the structure) of a JWT signature?
-Header, Payload, Signature
+ * Header, Payload, Signature
 
 ### References
 * <https://jwt.io/introduction/>
