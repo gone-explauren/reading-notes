@@ -10,7 +10,7 @@ In layers! First, the HTML is read and loaded by the browser, ensuring that at l
 A google image search with the Creative Commons License filter set will work, though there are many open source image sites like Unsplash available too.
   
 * What is JavaScript?
-A programming language that adds dynamic functionality to websites and applications
+A programming language that adds dynamic functionality to websites and applications.
   
 * How do you create a String vs a Number in JavaScript?
 In quotes! Numbers count as numbers outside of quotes, where they work like any other string. Strings get concatenated if you try and to arithmetic on them in JavaScript.
