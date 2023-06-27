@@ -2,13 +2,13 @@
 
 ## Intro to JWT
 * What is a JSON Web Token (JWT)?
-JWT is a means of securely transmitting information as a json object
+ * JWT is a means of securely transmitting information as a json object
 
 * When should we use JSON Web Tokens?
-Use JWT for credential authorization, secure information exchange
+ * Use JWT for credential authorization, secure information exchange
 
 * Claims are expected in which structural component of a JWT?
-In the payload
+ * In the payload
 
 ## Are JWTs Secure?
 * If I get a JWT and I can decode the payload, how can we call that secure?
